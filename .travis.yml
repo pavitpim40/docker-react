@@ -15,7 +15,7 @@ deploy:
     on:
         branch: main
     access_key_id:
-        secure: 'Encrypted AWS_ACCESS_KEY='
+        secure: 'Encrypted $AWS_ACCESS_KEY='
     secret_access_key:
-        secure: 'Encrypted AWS_SECRET_KEY='
+        secure: 'Encrypted $AWS_SECRET_KEY='
     skip_cleanup: true
