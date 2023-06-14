@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Button() {
-    return <button>Button4</button>;
+    return <button>Button5</button>;
 }
 
 export default Button;
